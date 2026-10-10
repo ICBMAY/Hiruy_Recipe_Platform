@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #10254a;
+  --color-accent: #f5c518;
+  --color-ink: #222222;
+  --color-surface: #fafafa;
+  --font-sans: "Segoe UI", Arial, sans-serif;
+}
+
+@layer base {
+  h1,
+  h2,
+  h3 {
+    color: var(--color-primary);
+  }
+}
