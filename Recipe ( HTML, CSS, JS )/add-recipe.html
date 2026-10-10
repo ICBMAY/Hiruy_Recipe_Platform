@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add a recipe</title>
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+  <header>
+    <nav><a href="./index.html">Home</a></nav>
+    <nav><a href="./add-recipe.html">Add a Recipe</a></nav>
+    <h1> Add a Recipe</h1>
+  </header>
+  <main>
+    <form action="" method="get">
+      <label for="recipe_name">Recipe Name :</label>
+      <input type="text" name="recipe_name" id = "recipe_name"><br>
+
+      <label for="mealtype">Meal type :</label>
+      <select name="mealtype" id="mealtype" >
+        <option value="">Breakfast</option>
+        <option value="">Lunch</option>
+        <option value="">Dinner</option>
+        <option value="">Dessert</option>
+        <option value="">Snack</option>
+      </select><br>
+      <label for="ingredients">Ingredients :</label>
+      <textarea name="ingredients" id="ingredients"></textarea><br>
+      <label for="prep_steps">Preparation Steps :</label>
+      <textarea name="prep_steps" id="prep_steps"></textarea><br>
+      <label for="serving">Serving(s) :</label>
+      <input type="number" name="serving" id="serving"><br>
+      <button type="submit">Submit your Recipe</button>
+    </form>
+  </main>
+  <footer>
+    Hiruy Recipe Platform, © 2026
+  </footer>
+</body>
+</html>
